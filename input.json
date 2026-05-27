@@ -1,0 +1,3400 @@
+{
+  "validate_extraction": true,
+  "validation_action_data": {
+    "actionData": {
+      "type": "Validation",
+      "id": 10490854,
+      "status": "Unassigned",
+      "title": "Validate Extraction - Sample Invoice.pdf - 3B1",
+      "priority": "Medium",
+      "taskCatalogName": "default_du_actions",
+      "taskUrl": "https://cloud.uipath.com/b88825c5-774a-4ace-86ed-a1706b88976a/ae415073-3af2-42b5-a79d-eaa01e9fe268/actions_/tasks/10490854",
+      "folderPath": "Shared",
+      "folderId": 830692,
+      "data": {
+        "automaticExtractionResultsPath": "/cd55f854-0132-f111-8ef3-6045bdd5cbd8/input_results.zip",
+        "validatedExtractionResultsPath": "/cd55f854-0132-f111-8ef3-6045bdd5cbd8/output_results.zip",
+        "documentRejectionDetails": null
+      },
+      "action": null,
+      "isDeleted": false,
+      "assignedToUser": null,
+      "creatorUser": null,
+      "deleterUser": null,
+      "lastModifierUser": null,
+      "completedByUser": null,
+      "creationTime": "2026-04-06T21:41:20.6003484Z",
+      "lastAssignedTime": null,
+      "completionTime": null,
+      "processingTime": null
+    },
+    "actionStatus": "Unassigned",
+    "projectId": "00000000-0000-0000-0000-000000000000",
+    "projectType": "Pretrained",
+    "tag": null,
+    "operationId": "cd55f854-0132-f111-8ef3-6045bdd5cbd8",
+    "extractorId": "invoices",
+    "documentTypeId": "invoices",
+    "validatedExtractionResults": null,
+    "dataProjection": null
+  },
+  "extraction_results": {
+  "DocumentId": "bd26c63f-0132-f111-8ef3-00224826ae6b",
+  "ResultsVersion": 0,
+  "ResultsDocument": {
+    "Bounds": {
+      "StartPage": 0,
+      "PageCount": 1,
+      "TextStartIndex": 0,
+      "TextLength": 776,
+      "PageRange": "1"
+    },
+    "Language": "eng",
+    "DocumentGroup": "",
+    "DocumentCategory": "",
+    "DocumentTypeId": "invoices",
+    "DocumentTypeName": "Invoices",
+    "DocumentTypeDataVersion": 0,
+    "DataVersion": 0,
+    "DocumentTypeSource": "Automatic",
+    "DocumentTypeField": {
+      "Components": [],
+      "Value": "Invoices",
+      "UnformattedValue": "",
+      "Reference": {
+        "TextStartIndex": 0,
+        "TextLength": 0,
+        "Tokens": []
+      },
+      "DerivedFields": [],
+      "Confidence": 1,
+      "OperatorConfirmed": false,
+      "OcrConfidence": -1,
+      "TextType": "Unknown",
+      "ValidatorNotes": "",
+      "ValidatorNotesInfo": ""
+    },
+    "Fields": [
+      {
+        "FieldId": "name",
+        "FieldName": "Vendor Name",
+        "FieldType": "Text",
+        "IsMissing": false,
+        "DataSource": "Automatic",
+        "Values": [
+          {
+            "Components": [],
+            "Value": "Move-For-You Co.",
+            "UnformattedValue": "Move-For-You Co.",
+            "Reference": {
+              "TextStartIndex": 76,
+              "TextLength": 16,
+              "Tokens": [
+                {
+                  "TextStartIndex": 76,
+                  "TextLength": 12,
+                  "Page": 0,
+                  "PageWidth": 540,
+                  "PageHeight": 720,
+                  "Boxes": [
+                    [
+                      51.73,
+                      194.4,
+                      117.33,
+                      20
+                    ]
+                  ]
+                },
+                {
+                  "TextStartIndex": 89,
+                  "TextLength": 3,
+                  "Page": 0,
+                  "PageWidth": 540,
+                  "PageHeight": 720,
+                  "Boxes": [
+                    [
+                      51.73,
+                      316,
+                      26.67,
+                      20
+                    ]
+                  ]
+                }
+              ]
+            },
+            "DerivedFields": [],
+            "Confidence": 0.9999284,
+            "OperatorConfirmed": false,
+            "OcrConfidence": 1,
+            "TextType": "Text",
+            "ValidatorNotes": "",
+            "ValidatorNotesInfo": ""
+          }
+        ],
+        "DataVersion": 0,
+        "OperatorConfirmed": false,
+        "ValidatorNotes": "",
+        "ValidatorNotesInfo": ""
+      },
+      {
+        "FieldId": "vendor-addr",
+        "FieldName": "Vendor Address",
+        "FieldType": "Text",
+        "IsMissing": false,
+        "DataSource": "Automatic",
+        "Values": [
+          {
+            "Components": [],
+            "Value": "20800 ALMADEN AVE, SUITE 404 SAN JOSE, CA 95120-0520",
+            "UnformattedValue": "20800 ALMADEN AVE, SUITE 404 SAN JOSE, CA 95120-0520",
+            "Reference": {
+              "TextStartIndex": 129,
+              "TextLength": 52,
+              "Tokens": [
+                {
+                  "TextStartIndex": 129,
+                  "TextLength": 5,
+                  "Page": 0,
+                  "PageWidth": 540,
+                  "PageHeight": 720,
+                  "Boxes": [
+                    [
+                      53.07,
+                      392.27,
+                      22.93,
+                      9.06
+                    ]
+                  ]
+                },
+                {
+                  "TextStartIndex": 135,
+                  "TextLength": 7,
+                  "Page": 0,
+                  "PageWidth": 540,
+                  "PageHeight": 720,
+                  "Boxes": [
+                    [
+                      53.07,
+                      416.8,
+                      37.6,
+                      9.06
+                    ]
+                  ]
+                },
+                {
+                  "TextStartIndex": 143,
+                  "TextLength": 4,
+                  "Page": 0,
+                  "PageWidth": 540,
+                  "PageHeight": 720,
+                  "Boxes": [
+                    [
+                      53.07,
+                      456.53,
+                      16.8,
+                      9.06
+                    ]
+                  ]
+                },
+                {
+                  "TextStartIndex": 148,
+                  "TextLength": 5,
+                  "Page": 0,
+                  "PageWidth": 540,
+                  "PageHeight": 720,
+                  "Boxes": [
+                    [
+                      53.07,
+                      475.47,
+                      21.06,
+                      9.06
+                    ]
+                  ]
+                },
+                {
+                  "TextStartIndex": 154,
+                  "TextLength": 3,
+                  "Page": 0,
+                  "PageWidth": 540,
+                  "PageHeight": 720,
+                  "Boxes": [
+                    [
+                      53.07,
+                      498.13,
+                      13.87,
+                      9.06
+                    ]
+                  ]
+                },
+                {
+                  "TextStartIndex": 158,
+                  "TextLength": 3,
+                  "Page": 0,
+                  "PageWidth": 540,
+                  "PageHeight": 720,
+                  "Boxes": [
+                    [
+                      64,
+                      392.27,
+                      15.2,
+                      9.07
+                    ]
+                  ]
+                },
+                {
+                  "TextStartIndex": 162,
+                  "TextLength": 5,
+                  "Page": 0,
+                  "PageWidth": 540,
+                  "PageHeight": 720,
+                  "Boxes": [
+                    [
+                      64,
+                      409.6,
+                      19.47,
+                      9.07
+                    ]
+                  ]
+                },
+                {
+                  "TextStartIndex": 168,
+                  "TextLength": 2,
+                  "Page": 0,
+                  "PageWidth": 540,
+                  "PageHeight": 720,
+                  "Boxes": [
+                    [
+                      64,
+                      430.93,
+                      10.14,
+                      9.07
+                    ]
+                  ]
+                },
+                {
+                  "TextStartIndex": 171,
+                  "TextLength": 10,
+                  "Page": 0,
+                  "PageWidth": 540,
+                  "PageHeight": 720,
+                  "Boxes": [
+                    [
+                      64,
+                      442.93,
+                      44,
+                      9.07
+                    ]
+                  ]
+                }
+              ]
+            },
+            "DerivedFields": [],
+            "Confidence": 0.9999932,
+            "OperatorConfirmed": false,
+            "OcrConfidence": 1,
+            "TextType": "Text",
+            "ValidatorNotes": "",
+            "ValidatorNotesInfo": ""
+          }
+        ],
+        "DataVersion": 0,
+        "OperatorConfirmed": false,
+        "ValidatorNotes": "",
+        "ValidatorNotesInfo": ""
+      },
+      {
+        "FieldId": "billing-name",
+        "FieldName": "Billing Name",
+        "FieldType": "Text",
+        "IsMissing": false,
+        "DataSource": "Automatic",
+        "Values": [
+          {
+            "Components": [],
+            "Value": "Tony Tzeng",
+            "UnformattedValue": "Tony Tzeng",
+            "Reference": {
+              "TextStartIndex": 29,
+              "TextLength": 10,
+              "Tokens": [
+                {
+                  "TextStartIndex": 29,
+                  "TextLength": 4,
+                  "Page": 0,
+                  "PageWidth": 540,
+                  "PageHeight": 720,
+                  "Boxes": [
+                    [
+                      228,
+                      43.47,
+                      22.66,
+                      12
+                    ]
+                  ]
+                },
+                {
+                  "TextStartIndex": 34,
+                  "TextLength": 5,
+                  "Page": 0,
+                  "PageWidth": 540,
+                  "PageHeight": 720,
+                  "Boxes": [
+                    [
+                      228,
+                      68.8,
+                      27.73,
+                      12
+                    ]
+                  ]
+                }
+              ]
+            },
+            "DerivedFields": [],
+            "Confidence": 0.9999181,
+            "OperatorConfirmed": false,
+            "OcrConfidence": 1,
+            "TextType": "Text",
+            "ValidatorNotes": "",
+            "ValidatorNotesInfo": ""
+          }
+        ],
+        "DataVersion": 0,
+        "OperatorConfirmed": false,
+        "ValidatorNotes": "",
+        "ValidatorNotesInfo": ""
+      },
+      {
+        "FieldId": "billing-addr",
+        "FieldName": "Billing Address",
+        "FieldType": "Text",
+        "IsMissing": false,
+        "DataSource": "Automatic",
+        "Values": [
+          {
+            "Components": [],
+            "Value": "12345 Mango Lane Seattle, WA 98108",
+            "UnformattedValue": "12345 Mango Lane Seattle, WA 98108",
+            "Reference": {
+              "TextStartIndex": 40,
+              "TextLength": 34,
+              "Tokens": [
+                {
+                  "TextStartIndex": 40,
+                  "TextLength": 5,
+                  "Page": 0,
+                  "PageWidth": 540,
+                  "PageHeight": 720,
+                  "Boxes": [
+                    [
+                      242.4,
+                      43.47,
+                      30.66,
+                      12
+                    ]
+                  ]
+                },
+                {
+                  "TextStartIndex": 46,
+                  "TextLength": 5,
+                  "Page": 0,
+                  "PageWidth": 540,
+                  "PageHeight": 720,
+                  "Boxes": [
+                    [
+                      242.4,
+                      76.8,
+                      34.4,
+                      12
+                    ]
+                  ]
+                },
+                {
+                  "TextStartIndex": 52,
+                  "TextLength": 4,
+                  "Page": 0,
+                  "PageWidth": 540,
+                  "PageHeight": 720,
+                  "Boxes": [
+                    [
+                      242.4,
+                      113.87,
+                      22.93,
+                      12
+                    ]
+                  ]
+                },
+                {
+                  "TextStartIndex": 57,
+                  "TextLength": 8,
+                  "Page": 0,
+                  "PageWidth": 540,
+                  "PageHeight": 720,
+                  "Boxes": [
+                    [
+                      256.8,
+                      43.47,
+                      37.06,
+                      12
+                    ]
+                  ]
+                },
+                {
+                  "TextStartIndex": 66,
+                  "TextLength": 2,
+                  "Page": 0,
+                  "PageWidth": 540,
+                  "PageHeight": 720,
+                  "Boxes": [
+                    [
+                      256.8,
+                      82.93,
+                      17.07,
+                      12
+                    ]
+                  ]
+                },
+                {
+                  "TextStartIndex": 69,
+                  "TextLength": 5,
+                  "Page": 0,
+                  "PageWidth": 540,
+                  "PageHeight": 720,
+                  "Boxes": [
+                    [
+                      256.8,
+                      102.67,
+                      30.66,
+                      12
+                    ]
+                  ]
+                }
+              ]
+            },
+            "DerivedFields": [],
+            "Confidence": 0.99990565,
+            "OperatorConfirmed": false,
+            "OcrConfidence": 1,
+            "TextType": "Text",
+            "ValidatorNotes": "",
+            "ValidatorNotesInfo": ""
+          }
+        ],
+        "DataVersion": 0,
+        "OperatorConfirmed": false,
+        "ValidatorNotes": "",
+        "ValidatorNotesInfo": ""
+      },
+      {
+        "FieldId": "shipping-addr",
+        "FieldName": "Shipping Address",
+        "FieldType": "Text",
+        "IsMissing": true,
+        "DataSource": "Automatic",
+        "Values": [],
+        "DataVersion": 0,
+        "OperatorConfirmed": false,
+        "ValidatorNotes": "",
+        "ValidatorNotesInfo": ""
+      },
+      {
+        "FieldId": "invoice-no",
+        "FieldName": "Invoice Number",
+        "FieldType": "Text",
+        "IsMissing": false,
+        "DataSource": "Automatic",
+        "Values": [
+          {
+            "Components": [],
+            "Value": "456200-TZE1",
+            "UnformattedValue": "456200-TZE1",
+            "Reference": {
+              "TextStartIndex": 300,
+              "TextLength": 11,
+              "Tokens": [
+                {
+                  "TextStartIndex": 300,
+                  "TextLength": 11,
+                  "Page": 0,
+                  "PageWidth": 540,
+                  "PageHeight": 720,
+                  "Boxes": [
+                    [
+                      199.2,
+                      424,
+                      64.27,
+                      12
+                    ]
+                  ]
+                }
+              ]
+            },
+            "DerivedFields": [],
+            "Confidence": 0.9999888,
+            "OperatorConfirmed": false,
+            "OcrConfidence": 1,
+            "TextType": "Text",
+            "ValidatorNotes": "",
+            "ValidatorNotesInfo": ""
+          }
+        ],
+        "DataVersion": 0,
+        "OperatorConfirmed": false,
+        "ValidatorNotes": "",
+        "ValidatorNotesInfo": ""
+      },
+      {
+        "FieldId": "po-no",
+        "FieldName": "Purchase Order Number",
+        "FieldType": "Text",
+        "IsMissing": false,
+        "DataSource": "Automatic",
+        "Values": [
+          {
+            "Components": [],
+            "Value": "NP74006735",
+            "UnformattedValue": "NP74006735",
+            "Reference": {
+              "TextStartIndex": 277,
+              "TextLength": 10,
+              "Tokens": [
+                {
+                  "TextStartIndex": 277,
+                  "TextLength": 10,
+                  "Page": 0,
+                  "PageWidth": 540,
+                  "PageHeight": 720,
+                  "Boxes": [
+                    [
+                      162.93,
+                      423.47,
+                      62.93,
+                      12
+                    ]
+                  ]
+                }
+              ]
+            },
+            "DerivedFields": [],
+            "Confidence": 0.999997,
+            "OperatorConfirmed": false,
+            "OcrConfidence": 1,
+            "TextType": "Text",
+            "ValidatorNotes": "",
+            "ValidatorNotesInfo": ""
+          }
+        ],
+        "DataVersion": 0,
+        "OperatorConfirmed": false,
+        "ValidatorNotes": "",
+        "ValidatorNotesInfo": ""
+      },
+      {
+        "FieldId": "vendor-vat-no",
+        "FieldName": "Vendor VAT Number",
+        "FieldType": "Text",
+        "IsMissing": true,
+        "DataSource": "Automatic",
+        "Values": [],
+        "DataVersion": 0,
+        "OperatorConfirmed": false,
+        "ValidatorNotes": "",
+        "ValidatorNotesInfo": ""
+      },
+      {
+        "FieldId": "date",
+        "FieldName": "Document Date",
+        "FieldType": "Date",
+        "IsMissing": false,
+        "DataSource": "Automatic",
+        "Values": [
+          {
+            "Components": [],
+            "Value": "2020-02-01",
+            "UnformattedValue": "1 February 2020",
+            "Reference": {
+              "TextStartIndex": 3,
+              "TextLength": 15,
+              "Tokens": [
+                {
+                  "TextStartIndex": 3,
+                  "TextLength": 1,
+                  "Page": 0,
+                  "PageWidth": 540,
+                  "PageHeight": 720,
+                  "Boxes": [
+                    [
+                      162.93,
+                      43.47,
+                      6.13,
+                      12
+                    ]
+                  ]
+                },
+                {
+                  "TextStartIndex": 5,
+                  "TextLength": 8,
+                  "Page": 0,
+                  "PageWidth": 540,
+                  "PageHeight": 720,
+                  "Boxes": [
+                    [
+                      162.93,
+                      52.27,
+                      44.53,
+                      12
+                    ]
+                  ]
+                },
+                {
+                  "TextStartIndex": 14,
+                  "TextLength": 4,
+                  "Page": 0,
+                  "PageWidth": 540,
+                  "PageHeight": 720,
+                  "Boxes": [
+                    [
+                      162.93,
+                      99.47,
+                      24.26,
+                      12
+                    ]
+                  ]
+                }
+              ]
+            },
+            "DerivedFields": [
+              {
+                "FieldId": "Year",
+                "Value": "2020"
+              },
+              {
+                "FieldId": "Month",
+                "Value": "2"
+              },
+              {
+                "FieldId": "Day",
+                "Value": "1"
+              }
+            ],
+            "Confidence": 0.9990148,
+            "OperatorConfirmed": false,
+            "OcrConfidence": 1,
+            "TextType": "Text",
+            "ValidatorNotes": "",
+            "ValidatorNotesInfo": ""
+          }
+        ],
+        "DataVersion": 0,
+        "OperatorConfirmed": false,
+        "ValidatorNotes": "",
+        "ValidatorNotesInfo": ""
+      },
+      {
+        "FieldId": "tax",
+        "FieldName": "Tax Amount",
+        "FieldType": "Number",
+        "IsMissing": false,
+        "DataSource": "Automatic",
+        "Values": [
+          {
+            "Components": [],
+            "Value": "1367.20",
+            "UnformattedValue": "$1,367.20",
+            "Reference": {
+              "TextStartIndex": 578,
+              "TextLength": 9,
+              "Tokens": [
+                {
+                  "TextStartIndex": 578,
+                  "TextLength": 9,
+                  "Page": 0,
+                  "PageWidth": 540,
+                  "PageHeight": 720,
+                  "Boxes": [
+                    [
+                      427.2,
+                      445.87,
+                      48.8,
+                      12
+                    ]
+                  ]
+                }
+              ]
+            },
+            "DerivedFields": [
+              {
+                "FieldId": "Value",
+                "Value": "1367.20"
+              }
+            ],
+            "Confidence": 0.99995506,
+            "OperatorConfirmed": false,
+            "OcrConfidence": 1,
+            "TextType": "Text",
+            "ValidatorNotes": "",
+            "ValidatorNotesInfo": ""
+          }
+        ],
+        "DataVersion": 0,
+        "OperatorConfirmed": false,
+        "ValidatorNotes": "",
+        "ValidatorNotesInfo": ""
+      },
+      {
+        "FieldId": "total",
+        "FieldName": "Total Amount",
+        "FieldType": "Number",
+        "IsMissing": false,
+        "DataSource": "Automatic",
+        "Values": [
+          {
+            "Components": [],
+            "Value": "15039.20",
+            "UnformattedValue": "$15,039.20",
+            "Reference": {
+              "TextStartIndex": 624,
+              "TextLength": 10,
+              "Tokens": [
+                {
+                  "TextStartIndex": 624,
+                  "TextLength": 10,
+                  "Page": 0,
+                  "PageWidth": 540,
+                  "PageHeight": 720,
+                  "Boxes": [
+                    [
+                      456,
+                      439.2,
+                      55.2,
+                      12
+                    ]
+                  ]
+                }
+              ]
+            },
+            "DerivedFields": [
+              {
+                "FieldId": "Value",
+                "Value": "15039.20"
+              }
+            ],
+            "Confidence": 0.9999691,
+            "OperatorConfirmed": false,
+            "OcrConfidence": 1,
+            "TextType": "Text",
+            "ValidatorNotes": "",
+            "ValidatorNotesInfo": ""
+          }
+        ],
+        "DataVersion": 0,
+        "OperatorConfirmed": false,
+        "ValidatorNotes": "",
+        "ValidatorNotesInfo": ""
+      },
+      {
+        "FieldId": "payment-terms",
+        "FieldName": "Payment Terms",
+        "FieldType": "Text",
+        "IsMissing": false,
+        "DataSource": "Automatic",
+        "Values": [
+          {
+            "Components": [],
+            "Value": "PAYABLE WITHIN 15 DAYS OF RECEIPT",
+            "UnformattedValue": "PAYABLE WITHIN 15 DAYS OF RECEIPT",
+            "Reference": {
+              "TextStartIndex": 636,
+              "TextLength": 33,
+              "Tokens": [
+                {
+                  "TextStartIndex": 636,
+                  "TextLength": 7,
+                  "Page": 0,
+                  "PageWidth": 540,
+                  "PageHeight": 720,
+                  "Boxes": [
+                    [
+                      526.93,
+                      176,
+                      41.87,
+                      12
+                    ]
+                  ]
+                },
+                {
+                  "TextStartIndex": 644,
+                  "TextLength": 6,
+                  "Page": 0,
+                  "PageWidth": 540,
+                  "PageHeight": 720,
+                  "Boxes": [
+                    [
+                      526.93,
+                      220.53,
+                      38.94,
+                      12
+                    ]
+                  ]
+                },
+                {
+                  "TextStartIndex": 651,
+                  "TextLength": 2,
+                  "Page": 0,
+                  "PageWidth": 540,
+                  "PageHeight": 720,
+                  "Boxes": [
+                    [
+                      526.93,
+                      262.13,
+                      12.27,
+                      12
+                    ]
+                  ]
+                },
+                {
+                  "TextStartIndex": 654,
+                  "TextLength": 4,
+                  "Page": 0,
+                  "PageWidth": 540,
+                  "PageHeight": 720,
+                  "Boxes": [
+                    [
+                      526.93,
+                      277.07,
+                      25.6,
+                      12
+                    ]
+                  ]
+                },
+                {
+                  "TextStartIndex": 659,
+                  "TextLength": 2,
+                  "Page": 0,
+                  "PageWidth": 540,
+                  "PageHeight": 720,
+                  "Boxes": [
+                    [
+                      526.93,
+                      305.33,
+                      13.6,
+                      12
+                    ]
+                  ]
+                },
+                {
+                  "TextStartIndex": 662,
+                  "TextLength": 7,
+                  "Page": 0,
+                  "PageWidth": 540,
+                  "PageHeight": 720,
+                  "Boxes": [
+                    [
+                      526.93,
+                      321.6,
+                      40.27,
+                      12
+                    ]
+                  ]
+                }
+              ]
+            },
+            "DerivedFields": [],
+            "Confidence": 0.8893666,
+            "OperatorConfirmed": false,
+            "OcrConfidence": 1,
+            "TextType": "Text",
+            "ValidatorNotes": "",
+            "ValidatorNotesInfo": ""
+          }
+        ],
+        "DataVersion": 0,
+        "OperatorConfirmed": false,
+        "ValidatorNotes": "",
+        "ValidatorNotesInfo": ""
+      },
+      {
+        "FieldId": "net-amount",
+        "FieldName": "Net Amount",
+        "FieldType": "Number",
+        "IsMissing": true,
+        "DataSource": "Automatic",
+        "Values": [],
+        "DataVersion": 0,
+        "OperatorConfirmed": false,
+        "ValidatorNotes": "",
+        "ValidatorNotesInfo": ""
+      },
+      {
+        "FieldId": "due-date",
+        "FieldName": "Due Date",
+        "FieldType": "Date",
+        "IsMissing": true,
+        "DataSource": "Automatic",
+        "Values": [],
+        "DataVersion": 0,
+        "OperatorConfirmed": false,
+        "ValidatorNotes": "",
+        "ValidatorNotesInfo": ""
+      },
+      {
+        "FieldId": "discount",
+        "FieldName": "Discount Amount",
+        "FieldType": "Number",
+        "IsMissing": true,
+        "DataSource": "Automatic",
+        "Values": [],
+        "DataVersion": 0,
+        "OperatorConfirmed": false,
+        "ValidatorNotes": "",
+        "ValidatorNotesInfo": ""
+      },
+      {
+        "FieldId": "shipping-charges",
+        "FieldName": "Shipping Charges",
+        "FieldType": "Number",
+        "IsMissing": true,
+        "DataSource": "Automatic",
+        "Values": [],
+        "DataVersion": 0,
+        "OperatorConfirmed": false,
+        "ValidatorNotes": "",
+        "ValidatorNotesInfo": ""
+      },
+      {
+        "FieldId": "payment-addr",
+        "FieldName": "Payment Address",
+        "FieldType": "Text",
+        "IsMissing": true,
+        "DataSource": "Automatic",
+        "Values": [],
+        "DataVersion": 0,
+        "OperatorConfirmed": false,
+        "ValidatorNotes": "",
+        "ValidatorNotesInfo": ""
+      },
+      {
+        "FieldId": "billing-vat-no",
+        "FieldName": "Billing VAT Number",
+        "FieldType": "Text",
+        "IsMissing": true,
+        "DataSource": "Automatic",
+        "Values": [],
+        "DataVersion": 0,
+        "OperatorConfirmed": false,
+        "ValidatorNotes": "",
+        "ValidatorNotesInfo": ""
+      },
+      {
+        "FieldId": "shipping-date",
+        "FieldName": "Shipping Date",
+        "FieldType": "Date",
+        "IsMissing": true,
+        "DataSource": "Automatic",
+        "Values": [],
+        "DataVersion": 0,
+        "OperatorConfirmed": false,
+        "ValidatorNotes": "",
+        "ValidatorNotesInfo": ""
+      },
+      {
+        "FieldId": "vendor-email",
+        "FieldName": "Vendor Email Address",
+        "FieldType": "Text",
+        "IsMissing": false,
+        "DataSource": "Automatic",
+        "Values": [
+          {
+            "Components": [],
+            "Value": "billing@moveforyou-co.com",
+            "UnformattedValue": "billing@moveforyou-co.com",
+            "Reference": {
+              "TextStartIndex": 224,
+              "TextLength": 25,
+              "Tokens": [
+                {
+                  "TextStartIndex": 224,
+                  "TextLength": 25,
+                  "Page": 0,
+                  "PageWidth": 540,
+                  "PageHeight": 720,
+                  "Boxes": [
+                    [
+                      107.2,
+                      401.07,
+                      104.26,
+                      9.07
+                    ]
+                  ]
+                }
+              ]
+            },
+            "DerivedFields": [],
+            "Confidence": 0.9999863,
+            "OperatorConfirmed": false,
+            "OcrConfidence": 1,
+            "TextType": "Text",
+            "ValidatorNotes": "",
+            "ValidatorNotesInfo": ""
+          }
+        ],
+        "DataVersion": 0,
+        "OperatorConfirmed": false,
+        "ValidatorNotes": "",
+        "ValidatorNotesInfo": ""
+      },
+      {
+        "FieldId": "bank-name",
+        "FieldName": "Bank Name",
+        "FieldType": "Text",
+        "IsMissing": false,
+        "DataSource": "Automatic",
+        "Values": [
+          {
+            "Components": [],
+            "Value": "BigBank Co.,",
+            "UnformattedValue": "BigBank Co.,",
+            "Reference": {
+              "TextStartIndex": 738,
+              "TextLength": 12,
+              "Tokens": [
+                {
+                  "TextStartIndex": 738,
+                  "TextLength": 7,
+                  "Page": 0,
+                  "PageWidth": 540,
+                  "PageHeight": 720,
+                  "Boxes": [
+                    [
+                      638.67,
+                      109.6,
+                      34.13,
+                      10.4
+                    ]
+                  ]
+                },
+                {
+                  "TextStartIndex": 746,
+                  "TextLength": 4,
+                  "Page": 0,
+                  "PageWidth": 540,
+                  "PageHeight": 720,
+                  "Boxes": [
+                    [
+                      638.67,
+                      145.87,
+                      16.53,
+                      10.4
+                    ]
+                  ]
+                }
+              ]
+            },
+            "DerivedFields": [],
+            "Confidence": 0.9999782,
+            "OperatorConfirmed": false,
+            "OcrConfidence": 1,
+            "TextType": "Text",
+            "ValidatorNotes": "",
+            "ValidatorNotesInfo": ""
+          }
+        ],
+        "DataVersion": 0,
+        "OperatorConfirmed": false,
+        "ValidatorNotes": "",
+        "ValidatorNotesInfo": ""
+      },
+      {
+        "FieldId": "bank-account-no",
+        "FieldName": "Bank Account Number",
+        "FieldType": "Text",
+        "IsMissing": false,
+        "DataSource": "Automatic",
+        "Values": [
+          {
+            "Components": [],
+            "Value": "123456789-0987ABC",
+            "UnformattedValue": "123456789-0987ABC",
+            "Reference": {
+              "TextStartIndex": 759,
+              "TextLength": 17,
+              "Tokens": [
+                {
+                  "TextStartIndex": 759,
+                  "TextLength": 17,
+                  "Page": 0,
+                  "PageWidth": 540,
+                  "PageHeight": 720,
+                  "Boxes": [
+                    [
+                      638.67,
+                      202.13,
+                      90.94,
+                      10.4
+                    ]
+                  ]
+                }
+              ]
+            },
+            "DerivedFields": [],
+            "Confidence": 0.9994831,
+            "OperatorConfirmed": false,
+            "OcrConfidence": 1,
+            "TextType": "Text",
+            "ValidatorNotes": "",
+            "ValidatorNotesInfo": ""
+          }
+        ],
+        "DataVersion": 0,
+        "OperatorConfirmed": false,
+        "ValidatorNotes": "",
+        "ValidatorNotesInfo": ""
+      },
+      {
+        "FieldId": "iban",
+        "FieldName": "Bank IBAN",
+        "FieldType": "Text",
+        "IsMissing": true,
+        "DataSource": "Automatic",
+        "Values": [],
+        "DataVersion": 0,
+        "OperatorConfirmed": false,
+        "ValidatorNotes": "",
+        "ValidatorNotesInfo": ""
+      },
+      {
+        "FieldId": "swift-code",
+        "FieldName": "SWIFT Code",
+        "FieldType": "Text",
+        "IsMissing": true,
+        "DataSource": "Automatic",
+        "Values": [],
+        "DataVersion": 0,
+        "OperatorConfirmed": false,
+        "ValidatorNotes": "",
+        "ValidatorNotesInfo": ""
+      },
+      {
+        "FieldId": "bank-addr",
+        "FieldName": "Bank Address",
+        "FieldType": "Text",
+        "IsMissing": true,
+        "DataSource": "Automatic",
+        "Values": [],
+        "DataVersion": 0,
+        "OperatorConfirmed": false,
+        "ValidatorNotes": "",
+        "ValidatorNotesInfo": ""
+      },
+      {
+        "FieldId": "bank-routing-no",
+        "FieldName": "Bank Routing Number",
+        "FieldType": "Text",
+        "IsMissing": true,
+        "DataSource": "Automatic",
+        "Values": [],
+        "DataVersion": 0,
+        "OperatorConfirmed": false,
+        "ValidatorNotes": "",
+        "ValidatorNotesInfo": ""
+      },
+      {
+        "FieldId": "tax-rate",
+        "FieldName": "Tax Rate",
+        "FieldType": "Number",
+        "IsMissing": false,
+        "DataSource": "Automatic",
+        "Values": [
+          {
+            "Components": [],
+            "Value": "10",
+            "UnformattedValue": "10%",
+            "Reference": {
+              "TextStartIndex": 553,
+              "TextLength": 3,
+              "Tokens": [
+                {
+                  "TextStartIndex": 553,
+                  "TextLength": 3,
+                  "Page": 0,
+                  "PageWidth": 540,
+                  "PageHeight": 720,
+                  "Boxes": [
+                    [
+                      427.2,
+                      88.53,
+                      20.8,
+                      12
+                    ]
+                  ]
+                }
+              ]
+            },
+            "DerivedFields": [
+              {
+                "FieldId": "Value",
+                "Value": "10"
+              }
+            ],
+            "Confidence": 0.99997514,
+            "OperatorConfirmed": false,
+            "OcrConfidence": 1,
+            "TextType": "Text",
+            "ValidatorNotes": "",
+            "ValidatorNotesInfo": ""
+          }
+        ],
+        "DataVersion": 0,
+        "OperatorConfirmed": false,
+        "ValidatorNotes": "",
+        "ValidatorNotesInfo": ""
+      },
+      {
+        "FieldId": "shipping-method",
+        "FieldName": "Shipping Method",
+        "FieldType": "Text",
+        "IsMissing": true,
+        "DataSource": "Automatic",
+        "Values": [],
+        "DataVersion": 0,
+        "OperatorConfirmed": false,
+        "ValidatorNotes": "",
+        "ValidatorNotesInfo": ""
+      },
+      {
+        "FieldId": "items",
+        "FieldName": "items",
+        "FieldType": "Table",
+        "IsMissing": false,
+        "DataSource": "Automatic",
+        "Values": [
+          {
+            "Components": [
+              {
+                "FieldId": "items.Header",
+                "FieldName": "Header",
+                "FieldType": "Internal",
+                "IsMissing": false,
+                "DataSource": "Automatic",
+                "Values": [
+                  {
+                    "Components": [
+                      {
+                        "FieldId": "description",
+                        "FieldName": "Items - Descriptions",
+                        "FieldType": "Text",
+                        "IsMissing": false,
+                        "DataSource": "Automatic",
+                        "Values": [
+                          {
+                            "Components": [],
+                            "Value": "description",
+                            "UnformattedValue": "",
+                            "Reference": {
+                              "TextStartIndex": 0,
+                              "TextLength": 0,
+                              "Tokens": []
+                            },
+                            "DerivedFields": [],
+                            "Confidence": -1,
+                            "OperatorConfirmed": false,
+                            "OcrConfidence": -1,
+                            "TextType": "Unknown",
+                            "ValidatorNotes": "",
+                            "ValidatorNotesInfo": ""
+                          }
+                        ],
+                        "DataVersion": 0,
+                        "OperatorConfirmed": false,
+                        "ValidatorNotes": "",
+                        "ValidatorNotesInfo": ""
+                      },
+                      {
+                        "FieldId": "quantity",
+                        "FieldName": "Items - Quantities",
+                        "FieldType": "Number",
+                        "IsMissing": false,
+                        "DataSource": "Automatic",
+                        "Values": [
+                          {
+                            "Components": [],
+                            "Value": "quantity",
+                            "UnformattedValue": "",
+                            "Reference": {
+                              "TextStartIndex": 0,
+                              "TextLength": 0,
+                              "Tokens": []
+                            },
+                            "DerivedFields": [],
+                            "Confidence": -1,
+                            "OperatorConfirmed": false,
+                            "OcrConfidence": -1,
+                            "TextType": "Unknown",
+                            "ValidatorNotes": "",
+                            "ValidatorNotesInfo": ""
+                          }
+                        ],
+                        "DataVersion": 0,
+                        "OperatorConfirmed": false,
+                        "ValidatorNotes": "",
+                        "ValidatorNotesInfo": ""
+                      },
+                      {
+                        "FieldId": "unit-price",
+                        "FieldName": "Items - Unit Prices",
+                        "FieldType": "Number",
+                        "IsMissing": false,
+                        "DataSource": "Automatic",
+                        "Values": [
+                          {
+                            "Components": [],
+                            "Value": "unit-price",
+                            "UnformattedValue": "",
+                            "Reference": {
+                              "TextStartIndex": 0,
+                              "TextLength": 0,
+                              "Tokens": []
+                            },
+                            "DerivedFields": [],
+                            "Confidence": -1,
+                            "OperatorConfirmed": false,
+                            "OcrConfidence": -1,
+                            "TextType": "Unknown",
+                            "ValidatorNotes": "",
+                            "ValidatorNotesInfo": ""
+                          }
+                        ],
+                        "DataVersion": 0,
+                        "OperatorConfirmed": false,
+                        "ValidatorNotes": "",
+                        "ValidatorNotesInfo": ""
+                      },
+                      {
+                        "FieldId": "line-amount",
+                        "FieldName": "Items - Line Amounts",
+                        "FieldType": "Number",
+                        "IsMissing": false,
+                        "DataSource": "Automatic",
+                        "Values": [
+                          {
+                            "Components": [],
+                            "Value": "line-amount",
+                            "UnformattedValue": "",
+                            "Reference": {
+                              "TextStartIndex": 0,
+                              "TextLength": 0,
+                              "Tokens": []
+                            },
+                            "DerivedFields": [],
+                            "Confidence": -1,
+                            "OperatorConfirmed": false,
+                            "OcrConfidence": -1,
+                            "TextType": "Unknown",
+                            "ValidatorNotes": "",
+                            "ValidatorNotesInfo": ""
+                          }
+                        ],
+                        "DataVersion": 0,
+                        "OperatorConfirmed": false,
+                        "ValidatorNotes": "",
+                        "ValidatorNotesInfo": ""
+                      },
+                      {
+                        "FieldId": "item-po-no",
+                        "FieldName": "Items - Customer Purchase Order Numbers",
+                        "FieldType": "Text",
+                        "IsMissing": false,
+                        "DataSource": "Automatic",
+                        "Values": [
+                          {
+                            "Components": [],
+                            "Value": "item-po-no",
+                            "UnformattedValue": "",
+                            "Reference": {
+                              "TextStartIndex": 0,
+                              "TextLength": 0,
+                              "Tokens": []
+                            },
+                            "DerivedFields": [],
+                            "Confidence": -1,
+                            "OperatorConfirmed": false,
+                            "OcrConfidence": -1,
+                            "TextType": "Unknown",
+                            "ValidatorNotes": "",
+                            "ValidatorNotesInfo": ""
+                          }
+                        ],
+                        "DataVersion": 0,
+                        "OperatorConfirmed": false,
+                        "ValidatorNotes": "",
+                        "ValidatorNotesInfo": ""
+                      },
+                      {
+                        "FieldId": "line-no",
+                        "FieldName": "Items - Line Numbers",
+                        "FieldType": "Text",
+                        "IsMissing": false,
+                        "DataSource": "Automatic",
+                        "Values": [
+                          {
+                            "Components": [],
+                            "Value": "line-no",
+                            "UnformattedValue": "",
+                            "Reference": {
+                              "TextStartIndex": 0,
+                              "TextLength": 0,
+                              "Tokens": []
+                            },
+                            "DerivedFields": [],
+                            "Confidence": -1,
+                            "OperatorConfirmed": false,
+                            "OcrConfidence": -1,
+                            "TextType": "Unknown",
+                            "ValidatorNotes": "",
+                            "ValidatorNotesInfo": ""
+                          }
+                        ],
+                        "DataVersion": 0,
+                        "OperatorConfirmed": false,
+                        "ValidatorNotes": "",
+                        "ValidatorNotesInfo": ""
+                      },
+                      {
+                        "FieldId": "part-no",
+                        "FieldName": "Items - Part Number",
+                        "FieldType": "Text",
+                        "IsMissing": false,
+                        "DataSource": "Automatic",
+                        "Values": [
+                          {
+                            "Components": [],
+                            "Value": "part-no",
+                            "UnformattedValue": "",
+                            "Reference": {
+                              "TextStartIndex": 0,
+                              "TextLength": 0,
+                              "Tokens": []
+                            },
+                            "DerivedFields": [],
+                            "Confidence": -1,
+                            "OperatorConfirmed": false,
+                            "OcrConfidence": -1,
+                            "TextType": "Unknown",
+                            "ValidatorNotes": "",
+                            "ValidatorNotesInfo": ""
+                          }
+                        ],
+                        "DataVersion": 0,
+                        "OperatorConfirmed": false,
+                        "ValidatorNotes": "",
+                        "ValidatorNotesInfo": ""
+                      }
+                    ],
+                    "Value": "",
+                    "UnformattedValue": "",
+                    "Reference": {
+                      "TextStartIndex": 0,
+                      "TextLength": 0,
+                      "Tokens": []
+                    },
+                    "DerivedFields": [],
+                    "Confidence": -1,
+                    "OperatorConfirmed": false,
+                    "OcrConfidence": -1,
+                    "TextType": "Unknown",
+                    "ValidatorNotes": "",
+                    "ValidatorNotesInfo": ""
+                  }
+                ],
+                "DataVersion": 0,
+                "OperatorConfirmed": false,
+                "ValidatorNotes": "",
+                "ValidatorNotesInfo": ""
+              },
+              {
+                "FieldId": "items.Body",
+                "FieldName": "Body",
+                "FieldType": "Internal",
+                "IsMissing": false,
+                "DataSource": "Automatic",
+                "Values": [
+                  {
+                    "Components": [
+                      {
+                        "FieldId": "description",
+                        "FieldName": "Items - Descriptions",
+                        "FieldType": "Text",
+                        "IsMissing": false,
+                        "DataSource": "Automatic",
+                        "Values": [
+                          {
+                            "Components": [],
+                            "Value": "Packing services",
+                            "UnformattedValue": "Packing services",
+                            "Reference": {
+                              "TextStartIndex": 359,
+                              "TextLength": 16,
+                              "Tokens": [
+                                {
+                                  "TextStartIndex": 359,
+                                  "TextLength": 7,
+                                  "Page": 0,
+                                  "PageWidth": 540,
+                                  "PageHeight": 720,
+                                  "Boxes": [
+                                    [
+                                      354.93,
+                                      43.47,
+                                      37.06,
+                                      12.27
+                                    ]
+                                  ]
+                                },
+                                {
+                                  "TextStartIndex": 367,
+                                  "TextLength": 8,
+                                  "Page": 0,
+                                  "PageWidth": 540,
+                                  "PageHeight": 720,
+                                  "Boxes": [
+                                    [
+                                      354.93,
+                                      83.2,
+                                      38.93,
+                                      12.27
+                                    ]
+                                  ]
+                                }
+                              ]
+                            },
+                            "DerivedFields": [],
+                            "Confidence": 0.99981546,
+                            "OperatorConfirmed": false,
+                            "OcrConfidence": 1,
+                            "TextType": "Text",
+                            "ValidatorNotes": "",
+                            "ValidatorNotesInfo": ""
+                          }
+                        ],
+                        "DataVersion": 0,
+                        "OperatorConfirmed": false,
+                        "ValidatorNotes": "",
+                        "ValidatorNotesInfo": ""
+                      },
+                      {
+                        "FieldId": "quantity",
+                        "FieldName": "Items - Quantities",
+                        "FieldType": "Number",
+                        "IsMissing": true,
+                        "DataSource": "Automatic",
+                        "Values": null,
+                        "DataVersion": 0,
+                        "OperatorConfirmed": false,
+                        "ValidatorNotes": "",
+                        "ValidatorNotesInfo": ""
+                      },
+                      {
+                        "FieldId": "unit-price",
+                        "FieldName": "Items - Unit Prices",
+                        "FieldType": "Number",
+                        "IsMissing": true,
+                        "DataSource": "Automatic",
+                        "Values": null,
+                        "DataVersion": 0,
+                        "OperatorConfirmed": false,
+                        "ValidatorNotes": "",
+                        "ValidatorNotesInfo": ""
+                      },
+                      {
+                        "FieldId": "line-amount",
+                        "FieldName": "Items - Line Amounts",
+                        "FieldType": "Number",
+                        "IsMissing": false,
+                        "DataSource": "Automatic",
+                        "Values": [
+                          {
+                            "Components": [],
+                            "Value": "1282.00",
+                            "UnformattedValue": "$1,282.00",
+                            "Reference": {
+                              "TextStartIndex": 394,
+                              "TextLength": 9,
+                              "Tokens": [
+                                {
+                                  "TextStartIndex": 394,
+                                  "TextLength": 9,
+                                  "Page": 0,
+                                  "PageWidth": 540,
+                                  "PageHeight": 720,
+                                  "Boxes": [
+                                    [
+                                      354.93,
+                                      445.87,
+                                      48.8,
+                                      12.27
+                                    ]
+                                  ]
+                                }
+                              ]
+                            },
+                            "DerivedFields": [
+                              {
+                                "FieldId": "Value",
+                                "Value": "1282.00"
+                              }
+                            ],
+                            "Confidence": 0.999979,
+                            "OperatorConfirmed": false,
+                            "OcrConfidence": 1,
+                            "TextType": "Text",
+                            "ValidatorNotes": "",
+                            "ValidatorNotesInfo": ""
+                          }
+                        ],
+                        "DataVersion": 0,
+                        "OperatorConfirmed": false,
+                        "ValidatorNotes": "",
+                        "ValidatorNotesInfo": ""
+                      },
+                      {
+                        "FieldId": "item-po-no",
+                        "FieldName": "Items - Customer Purchase Order Numbers",
+                        "FieldType": "Text",
+                        "IsMissing": true,
+                        "DataSource": "Automatic",
+                        "Values": null,
+                        "DataVersion": 0,
+                        "OperatorConfirmed": false,
+                        "ValidatorNotes": "",
+                        "ValidatorNotesInfo": ""
+                      },
+                      {
+                        "FieldId": "line-no",
+                        "FieldName": "Items - Line Numbers",
+                        "FieldType": "Text",
+                        "IsMissing": true,
+                        "DataSource": "Automatic",
+                        "Values": null,
+                        "DataVersion": 0,
+                        "OperatorConfirmed": false,
+                        "ValidatorNotes": "",
+                        "ValidatorNotesInfo": ""
+                      },
+                      {
+                        "FieldId": "part-no",
+                        "FieldName": "Items - Part Number",
+                        "FieldType": "Text",
+                        "IsMissing": true,
+                        "DataSource": "Automatic",
+                        "Values": null,
+                        "DataVersion": 0,
+                        "OperatorConfirmed": false,
+                        "ValidatorNotes": "",
+                        "ValidatorNotesInfo": ""
+                      }
+                    ],
+                    "Value": "",
+                    "UnformattedValue": "",
+                    "Reference": {
+                      "TextStartIndex": 0,
+                      "TextLength": 0,
+                      "Tokens": []
+                    },
+                    "DerivedFields": [],
+                    "Confidence": 0.99981546,
+                    "OperatorConfirmed": false,
+                    "OcrConfidence": -1,
+                    "TextType": "Unknown",
+                    "ValidatorNotes": "",
+                    "ValidatorNotesInfo": ""
+                  },
+                  {
+                    "Components": [
+                      {
+                        "FieldId": "description",
+                        "FieldName": "Items - Descriptions",
+                        "FieldType": "Text",
+                        "IsMissing": false,
+                        "DataSource": "Automatic",
+                        "Values": [
+                          {
+                            "Components": [],
+                            "Value": "Storage fees (1 month)",
+                            "UnformattedValue": "Storage fees (1 month)",
+                            "Reference": {
+                              "TextStartIndex": 405,
+                              "TextLength": 22,
+                              "Tokens": [
+                                {
+                                  "TextStartIndex": 405,
+                                  "TextLength": 7,
+                                  "Page": 0,
+                                  "PageWidth": 540,
+                                  "PageHeight": 720,
+                                  "Boxes": [
+                                    [
+                                      369.6,
+                                      43.47,
+                                      37.06,
+                                      12
+                                    ]
+                                  ]
+                                },
+                                {
+                                  "TextStartIndex": 413,
+                                  "TextLength": 4,
+                                  "Page": 0,
+                                  "PageWidth": 540,
+                                  "PageHeight": 720,
+                                  "Boxes": [
+                                    [
+                                      369.6,
+                                      83.2,
+                                      20.27,
+                                      12
+                                    ]
+                                  ]
+                                },
+                                {
+                                  "TextStartIndex": 418,
+                                  "TextLength": 2,
+                                  "Page": 0,
+                                  "PageWidth": 540,
+                                  "PageHeight": 720,
+                                  "Boxes": [
+                                    [
+                                      369.6,
+                                      106.13,
+                                      9.6,
+                                      12
+                                    ]
+                                  ]
+                                },
+                                {
+                                  "TextStartIndex": 421,
+                                  "TextLength": 6,
+                                  "Page": 0,
+                                  "PageWidth": 540,
+                                  "PageHeight": 720,
+                                  "Boxes": [
+                                    [
+                                      369.6,
+                                      118.4,
+                                      36.27,
+                                      12
+                                    ]
+                                  ]
+                                }
+                              ]
+                            },
+                            "DerivedFields": [],
+                            "Confidence": 0.99973124,
+                            "OperatorConfirmed": false,
+                            "OcrConfidence": 1,
+                            "TextType": "Text",
+                            "ValidatorNotes": "",
+                            "ValidatorNotesInfo": ""
+                          }
+                        ],
+                        "DataVersion": 0,
+                        "OperatorConfirmed": false,
+                        "ValidatorNotes": "",
+                        "ValidatorNotesInfo": ""
+                      },
+                      {
+                        "FieldId": "quantity",
+                        "FieldName": "Items - Quantities",
+                        "FieldType": "Number",
+                        "IsMissing": true,
+                        "DataSource": "Automatic",
+                        "Values": null,
+                        "DataVersion": 0,
+                        "OperatorConfirmed": false,
+                        "ValidatorNotes": "",
+                        "ValidatorNotesInfo": ""
+                      },
+                      {
+                        "FieldId": "unit-price",
+                        "FieldName": "Items - Unit Prices",
+                        "FieldType": "Number",
+                        "IsMissing": true,
+                        "DataSource": "Automatic",
+                        "Values": null,
+                        "DataVersion": 0,
+                        "OperatorConfirmed": false,
+                        "ValidatorNotes": "",
+                        "ValidatorNotesInfo": ""
+                      },
+                      {
+                        "FieldId": "line-amount",
+                        "FieldName": "Items - Line Amounts",
+                        "FieldType": "Number",
+                        "IsMissing": false,
+                        "DataSource": "Automatic",
+                        "Values": [
+                          {
+                            "Components": [],
+                            "Value": "1884.00",
+                            "UnformattedValue": "$1,884.00",
+                            "Reference": {
+                              "TextStartIndex": 440,
+                              "TextLength": 9,
+                              "Tokens": [
+                                {
+                                  "TextStartIndex": 440,
+                                  "TextLength": 9,
+                                  "Page": 0,
+                                  "PageWidth": 540,
+                                  "PageHeight": 720,
+                                  "Boxes": [
+                                    [
+                                      369.6,
+                                      445.87,
+                                      48.8,
+                                      12
+                                    ]
+                                  ]
+                                }
+                              ]
+                            },
+                            "DerivedFields": [
+                              {
+                                "FieldId": "Value",
+                                "Value": "1884.00"
+                              }
+                            ],
+                            "Confidence": 0.99998564,
+                            "OperatorConfirmed": false,
+                            "OcrConfidence": 1,
+                            "TextType": "Text",
+                            "ValidatorNotes": "",
+                            "ValidatorNotesInfo": ""
+                          }
+                        ],
+                        "DataVersion": 0,
+                        "OperatorConfirmed": false,
+                        "ValidatorNotes": "",
+                        "ValidatorNotesInfo": ""
+                      },
+                      {
+                        "FieldId": "item-po-no",
+                        "FieldName": "Items - Customer Purchase Order Numbers",
+                        "FieldType": "Text",
+                        "IsMissing": true,
+                        "DataSource": "Automatic",
+                        "Values": null,
+                        "DataVersion": 0,
+                        "OperatorConfirmed": false,
+                        "ValidatorNotes": "",
+                        "ValidatorNotesInfo": ""
+                      },
+                      {
+                        "FieldId": "line-no",
+                        "FieldName": "Items - Line Numbers",
+                        "FieldType": "Text",
+                        "IsMissing": true,
+                        "DataSource": "Automatic",
+                        "Values": null,
+                        "DataVersion": 0,
+                        "OperatorConfirmed": false,
+                        "ValidatorNotes": "",
+                        "ValidatorNotesInfo": ""
+                      },
+                      {
+                        "FieldId": "part-no",
+                        "FieldName": "Items - Part Number",
+                        "FieldType": "Text",
+                        "IsMissing": true,
+                        "DataSource": "Automatic",
+                        "Values": null,
+                        "DataVersion": 0,
+                        "OperatorConfirmed": false,
+                        "ValidatorNotes": "",
+                        "ValidatorNotesInfo": ""
+                      }
+                    ],
+                    "Value": "",
+                    "UnformattedValue": "",
+                    "Reference": {
+                      "TextStartIndex": 0,
+                      "TextLength": 0,
+                      "Tokens": []
+                    },
+                    "DerivedFields": [],
+                    "Confidence": 0.99973124,
+                    "OperatorConfirmed": false,
+                    "OcrConfidence": -1,
+                    "TextType": "Unknown",
+                    "ValidatorNotes": "",
+                    "ValidatorNotesInfo": ""
+                  },
+                  {
+                    "Components": [
+                      {
+                        "FieldId": "description",
+                        "FieldName": "Items - Descriptions",
+                        "FieldType": "Text",
+                        "IsMissing": false,
+                        "DataSource": "Automatic",
+                        "Values": [
+                          {
+                            "Components": [],
+                            "Value": "House move (white-glove service)",
+                            "UnformattedValue": "House move (white-glove service)",
+                            "Reference": {
+                              "TextStartIndex": 451,
+                              "TextLength": 32,
+                              "Tokens": [
+                                {
+                                  "TextStartIndex": 451,
+                                  "TextLength": 5,
+                                  "Page": 0,
+                                  "PageWidth": 540,
+                                  "PageHeight": 720,
+                                  "Boxes": [
+                                    [
+                                      384,
+                                      43.47,
+                                      30.93,
+                                      12
+                                    ]
+                                  ]
+                                },
+                                {
+                                  "TextStartIndex": 457,
+                                  "TextLength": 4,
+                                  "Page": 0,
+                                  "PageWidth": 540,
+                                  "PageHeight": 720,
+                                  "Boxes": [
+                                    [
+                                      384,
+                                      77.07,
+                                      27.2,
+                                      12
+                                    ]
+                                  ]
+                                },
+                                {
+                                  "TextStartIndex": 462,
+                                  "TextLength": 12,
+                                  "Page": 0,
+                                  "PageWidth": 540,
+                                  "PageHeight": 720,
+                                  "Boxes": [
+                                    [
+                                      384,
+                                      106.93,
+                                      61.07,
+                                      12
+                                    ]
+                                  ]
+                                },
+                                {
+                                  "TextStartIndex": 475,
+                                  "TextLength": 8,
+                                  "Page": 0,
+                                  "PageWidth": 540,
+                                  "PageHeight": 720,
+                                  "Boxes": [
+                                    [
+                                      384,
+                                      170.67,
+                                      37.6,
+                                      12
+                                    ]
+                                  ]
+                                }
+                              ]
+                            },
+                            "DerivedFields": [],
+                            "Confidence": 0.99991155,
+                            "OperatorConfirmed": false,
+                            "OcrConfidence": 1,
+                            "TextType": "Text",
+                            "ValidatorNotes": "",
+                            "ValidatorNotesInfo": ""
+                          }
+                        ],
+                        "DataVersion": 0,
+                        "OperatorConfirmed": false,
+                        "ValidatorNotes": "",
+                        "ValidatorNotesInfo": ""
+                      },
+                      {
+                        "FieldId": "quantity",
+                        "FieldName": "Items - Quantities",
+                        "FieldType": "Number",
+                        "IsMissing": true,
+                        "DataSource": "Automatic",
+                        "Values": null,
+                        "DataVersion": 0,
+                        "OperatorConfirmed": false,
+                        "ValidatorNotes": "",
+                        "ValidatorNotesInfo": ""
+                      },
+                      {
+                        "FieldId": "unit-price",
+                        "FieldName": "Items - Unit Prices",
+                        "FieldType": "Number",
+                        "IsMissing": true,
+                        "DataSource": "Automatic",
+                        "Values": null,
+                        "DataVersion": 0,
+                        "OperatorConfirmed": false,
+                        "ValidatorNotes": "",
+                        "ValidatorNotesInfo": ""
+                      },
+                      {
+                        "FieldId": "line-amount",
+                        "FieldName": "Items - Line Amounts",
+                        "FieldType": "Number",
+                        "IsMissing": false,
+                        "DataSource": "Automatic",
+                        "Values": [
+                          {
+                            "Components": [],
+                            "Value": "5320.00",
+                            "UnformattedValue": "$5,320.00",
+                            "Reference": {
+                              "TextStartIndex": 486,
+                              "TextLength": 9,
+                              "Tokens": [
+                                {
+                                  "TextStartIndex": 486,
+                                  "TextLength": 9,
+                                  "Page": 0,
+                                  "PageWidth": 540,
+                                  "PageHeight": 720,
+                                  "Boxes": [
+                                    [
+                                      384,
+                                      445.87,
+                                      48.8,
+                                      12
+                                    ]
+                                  ]
+                                }
+                              ]
+                            },
+                            "DerivedFields": [
+                              {
+                                "FieldId": "Value",
+                                "Value": "5320.00"
+                              }
+                            ],
+                            "Confidence": 0.9999771,
+                            "OperatorConfirmed": false,
+                            "OcrConfidence": 1,
+                            "TextType": "Text",
+                            "ValidatorNotes": "",
+                            "ValidatorNotesInfo": ""
+                          }
+                        ],
+                        "DataVersion": 0,
+                        "OperatorConfirmed": false,
+                        "ValidatorNotes": "",
+                        "ValidatorNotesInfo": ""
+                      },
+                      {
+                        "FieldId": "item-po-no",
+                        "FieldName": "Items - Customer Purchase Order Numbers",
+                        "FieldType": "Text",
+                        "IsMissing": true,
+                        "DataSource": "Automatic",
+                        "Values": null,
+                        "DataVersion": 0,
+                        "OperatorConfirmed": false,
+                        "ValidatorNotes": "",
+                        "ValidatorNotesInfo": ""
+                      },
+                      {
+                        "FieldId": "line-no",
+                        "FieldName": "Items - Line Numbers",
+                        "FieldType": "Text",
+                        "IsMissing": true,
+                        "DataSource": "Automatic",
+                        "Values": null,
+                        "DataVersion": 0,
+                        "OperatorConfirmed": false,
+                        "ValidatorNotes": "",
+                        "ValidatorNotesInfo": ""
+                      },
+                      {
+                        "FieldId": "part-no",
+                        "FieldName": "Items - Part Number",
+                        "FieldType": "Text",
+                        "IsMissing": true,
+                        "DataSource": "Automatic",
+                        "Values": null,
+                        "DataVersion": 0,
+                        "OperatorConfirmed": false,
+                        "ValidatorNotes": "",
+                        "ValidatorNotesInfo": ""
+                      }
+                    ],
+                    "Value": "",
+                    "UnformattedValue": "",
+                    "Reference": {
+                      "TextStartIndex": 0,
+                      "TextLength": 0,
+                      "Tokens": []
+                    },
+                    "DerivedFields": [],
+                    "Confidence": 0.99991155,
+                    "OperatorConfirmed": false,
+                    "OcrConfidence": -1,
+                    "TextType": "Unknown",
+                    "ValidatorNotes": "",
+                    "ValidatorNotesInfo": ""
+                  },
+                  {
+                    "Components": [
+                      {
+                        "FieldId": "description",
+                        "FieldName": "Items - Descriptions",
+                        "FieldType": "Text",
+                        "IsMissing": false,
+                        "DataSource": "Automatic",
+                        "Values": [
+                          {
+                            "Components": [],
+                            "Value": "Vehicle storage and transport",
+                            "UnformattedValue": "Vehicle storage and transport",
+                            "Reference": {
+                              "TextStartIndex": 497,
+                              "TextLength": 29,
+                              "Tokens": [
+                                {
+                                  "TextStartIndex": 497,
+                                  "TextLength": 7,
+                                  "Page": 0,
+                                  "PageWidth": 540,
+                                  "PageHeight": 720,
+                                  "Boxes": [
+                                    [
+                                      398.4,
+                                      43.47,
+                                      35.2,
+                                      12
+                                    ]
+                                  ]
+                                },
+                                {
+                                  "TextStartIndex": 505,
+                                  "TextLength": 7,
+                                  "Page": 0,
+                                  "PageWidth": 540,
+                                  "PageHeight": 720,
+                                  "Boxes": [
+                                    [
+                                      398.4,
+                                      81.33,
+                                      36,
+                                      12
+                                    ]
+                                  ]
+                                },
+                                {
+                                  "TextStartIndex": 513,
+                                  "TextLength": 3,
+                                  "Page": 0,
+                                  "PageWidth": 540,
+                                  "PageHeight": 720,
+                                  "Boxes": [
+                                    [
+                                      398.4,
+                                      120,
+                                      18.4,
+                                      12
+                                    ]
+                                  ]
+                                },
+                                {
+                                  "TextStartIndex": 517,
+                                  "TextLength": 9,
+                                  "Page": 0,
+                                  "PageWidth": 540,
+                                  "PageHeight": 720,
+                                  "Boxes": [
+                                    [
+                                      398.4,
+                                      141.07,
+                                      45.6,
+                                      12
+                                    ]
+                                  ]
+                                }
+                              ]
+                            },
+                            "DerivedFields": [],
+                            "Confidence": 0.99985784,
+                            "OperatorConfirmed": false,
+                            "OcrConfidence": 1,
+                            "TextType": "Text",
+                            "ValidatorNotes": "",
+                            "ValidatorNotesInfo": ""
+                          }
+                        ],
+                        "DataVersion": 0,
+                        "OperatorConfirmed": false,
+                        "ValidatorNotes": "",
+                        "ValidatorNotesInfo": ""
+                      },
+                      {
+                        "FieldId": "quantity",
+                        "FieldName": "Items - Quantities",
+                        "FieldType": "Number",
+                        "IsMissing": true,
+                        "DataSource": "Automatic",
+                        "Values": null,
+                        "DataVersion": 0,
+                        "OperatorConfirmed": false,
+                        "ValidatorNotes": "",
+                        "ValidatorNotesInfo": ""
+                      },
+                      {
+                        "FieldId": "unit-price",
+                        "FieldName": "Items - Unit Prices",
+                        "FieldType": "Number",
+                        "IsMissing": true,
+                        "DataSource": "Automatic",
+                        "Values": null,
+                        "DataVersion": 0,
+                        "OperatorConfirmed": false,
+                        "ValidatorNotes": "",
+                        "ValidatorNotesInfo": ""
+                      },
+                      {
+                        "FieldId": "line-amount",
+                        "FieldName": "Items - Line Amounts",
+                        "FieldType": "Number",
+                        "IsMissing": false,
+                        "DataSource": "Automatic",
+                        "Values": [
+                          {
+                            "Components": [],
+                            "Value": "5186.00",
+                            "UnformattedValue": "$5,186.00",
+                            "Reference": {
+                              "TextStartIndex": 532,
+                              "TextLength": 9,
+                              "Tokens": [
+                                {
+                                  "TextStartIndex": 532,
+                                  "TextLength": 9,
+                                  "Page": 0,
+                                  "PageWidth": 540,
+                                  "PageHeight": 720,
+                                  "Boxes": [
+                                    [
+                                      398.4,
+                                      445.87,
+                                      48.8,
+                                      12
+                                    ]
+                                  ]
+                                }
+                              ]
+                            },
+                            "DerivedFields": [
+                              {
+                                "FieldId": "Value",
+                                "Value": "5186.00"
+                              }
+                            ],
+                            "Confidence": 0.99997973,
+                            "OperatorConfirmed": false,
+                            "OcrConfidence": 1,
+                            "TextType": "Text",
+                            "ValidatorNotes": "",
+                            "ValidatorNotesInfo": ""
+                          }
+                        ],
+                        "DataVersion": 0,
+                        "OperatorConfirmed": false,
+                        "ValidatorNotes": "",
+                        "ValidatorNotesInfo": ""
+                      },
+                      {
+                        "FieldId": "item-po-no",
+                        "FieldName": "Items - Customer Purchase Order Numbers",
+                        "FieldType": "Text",
+                        "IsMissing": true,
+                        "DataSource": "Automatic",
+                        "Values": null,
+                        "DataVersion": 0,
+                        "OperatorConfirmed": false,
+                        "ValidatorNotes": "",
+                        "ValidatorNotesInfo": ""
+                      },
+                      {
+                        "FieldId": "line-no",
+                        "FieldName": "Items - Line Numbers",
+                        "FieldType": "Text",
+                        "IsMissing": true,
+                        "DataSource": "Automatic",
+                        "Values": null,
+                        "DataVersion": 0,
+                        "OperatorConfirmed": false,
+                        "ValidatorNotes": "",
+                        "ValidatorNotesInfo": ""
+                      },
+                      {
+                        "FieldId": "part-no",
+                        "FieldName": "Items - Part Number",
+                        "FieldType": "Text",
+                        "IsMissing": true,
+                        "DataSource": "Automatic",
+                        "Values": null,
+                        "DataVersion": 0,
+                        "OperatorConfirmed": false,
+                        "ValidatorNotes": "",
+                        "ValidatorNotesInfo": ""
+                      }
+                    ],
+                    "Value": "",
+                    "UnformattedValue": "",
+                    "Reference": {
+                      "TextStartIndex": 0,
+                      "TextLength": 0,
+                      "Tokens": []
+                    },
+                    "DerivedFields": [],
+                    "Confidence": 0.99985784,
+                    "OperatorConfirmed": false,
+                    "OcrConfidence": -1,
+                    "TextType": "Unknown",
+                    "ValidatorNotes": "",
+                    "ValidatorNotesInfo": ""
+                  }
+                ],
+                "DataVersion": 0,
+                "OperatorConfirmed": false,
+                "ValidatorNotes": "",
+                "ValidatorNotesInfo": ""
+              }
+            ],
+            "Value": "",
+            "UnformattedValue": "",
+            "Reference": {
+              "TextStartIndex": 0,
+              "TextLength": 0,
+              "Tokens": []
+            },
+            "DerivedFields": [],
+            "Confidence": 0.99973124,
+            "OperatorConfirmed": false,
+            "OcrConfidence": -1,
+            "TextType": "Unknown",
+            "ValidatorNotes": "",
+            "ValidatorNotesInfo": ""
+          }
+        ],
+        "DataVersion": 0,
+        "OperatorConfirmed": false,
+        "ValidatorNotes": "",
+        "ValidatorNotesInfo": ""
+      },
+      {
+        "FieldId": "currency",
+        "FieldName": "currency",
+        "FieldType": "Set",
+        "IsMissing": true,
+        "DataSource": "Automatic",
+        "Values": [],
+        "DataVersion": 0,
+        "OperatorConfirmed": false,
+        "ValidatorNotes": "",
+        "ValidatorNotesInfo": ""
+      }
+    ],
+    "Tables": [
+      {
+        "FieldId": "items",
+        "FieldName": "items",
+        "IsMissing": false,
+        "DataSource": "Automatic",
+        "DataVersion": 0,
+        "OperatorConfirmed": false,
+        "Values": [
+          {
+            "OperatorConfirmed": false,
+            "Confidence": 0.99973124,
+            "OcrConfidence": -1,
+            "Cells": [
+              {
+                "RowIndex": 0,
+                "ColumnIndex": 0,
+                "IsHeader": true,
+                "IsMissing": false,
+                "OperatorConfirmed": false,
+                "DataSource": "Automatic",
+                "DataVersion": 0,
+                "Values": [
+                  {
+                    "Components": [],
+                    "Value": "description",
+                    "UnformattedValue": "",
+                    "Reference": {
+                      "TextStartIndex": 0,
+                      "TextLength": 0,
+                      "Tokens": []
+                    },
+                    "DerivedFields": [],
+                    "Confidence": -1,
+                    "OperatorConfirmed": false,
+                    "OcrConfidence": -1,
+                    "TextType": "Unknown",
+                    "ValidatorNotes": "",
+                    "ValidatorNotesInfo": ""
+                  }
+                ]
+              },
+              {
+                "RowIndex": 0,
+                "ColumnIndex": 1,
+                "IsHeader": true,
+                "IsMissing": false,
+                "OperatorConfirmed": false,
+                "DataSource": "Automatic",
+                "DataVersion": 0,
+                "Values": [
+                  {
+                    "Components": [],
+                    "Value": "quantity",
+                    "UnformattedValue": "",
+                    "Reference": {
+                      "TextStartIndex": 0,
+                      "TextLength": 0,
+                      "Tokens": []
+                    },
+                    "DerivedFields": [],
+                    "Confidence": -1,
+                    "OperatorConfirmed": false,
+                    "OcrConfidence": -1,
+                    "TextType": "Unknown",
+                    "ValidatorNotes": "",
+                    "ValidatorNotesInfo": ""
+                  }
+                ]
+              },
+              {
+                "RowIndex": 0,
+                "ColumnIndex": 2,
+                "IsHeader": true,
+                "IsMissing": false,
+                "OperatorConfirmed": false,
+                "DataSource": "Automatic",
+                "DataVersion": 0,
+                "Values": [
+                  {
+                    "Components": [],
+                    "Value": "unit-price",
+                    "UnformattedValue": "",
+                    "Reference": {
+                      "TextStartIndex": 0,
+                      "TextLength": 0,
+                      "Tokens": []
+                    },
+                    "DerivedFields": [],
+                    "Confidence": -1,
+                    "OperatorConfirmed": false,
+                    "OcrConfidence": -1,
+                    "TextType": "Unknown",
+                    "ValidatorNotes": "",
+                    "ValidatorNotesInfo": ""
+                  }
+                ]
+              },
+              {
+                "RowIndex": 0,
+                "ColumnIndex": 3,
+                "IsHeader": true,
+                "IsMissing": false,
+                "OperatorConfirmed": false,
+                "DataSource": "Automatic",
+                "DataVersion": 0,
+                "Values": [
+                  {
+                    "Components": [],
+                    "Value": "line-amount",
+                    "UnformattedValue": "",
+                    "Reference": {
+                      "TextStartIndex": 0,
+                      "TextLength": 0,
+                      "Tokens": []
+                    },
+                    "DerivedFields": [],
+                    "Confidence": -1,
+                    "OperatorConfirmed": false,
+                    "OcrConfidence": -1,
+                    "TextType": "Unknown",
+                    "ValidatorNotes": "",
+                    "ValidatorNotesInfo": ""
+                  }
+                ]
+              },
+              {
+                "RowIndex": 0,
+                "ColumnIndex": 4,
+                "IsHeader": true,
+                "IsMissing": false,
+                "OperatorConfirmed": false,
+                "DataSource": "Automatic",
+                "DataVersion": 0,
+                "Values": [
+                  {
+                    "Components": [],
+                    "Value": "item-po-no",
+                    "UnformattedValue": "",
+                    "Reference": {
+                      "TextStartIndex": 0,
+                      "TextLength": 0,
+                      "Tokens": []
+                    },
+                    "DerivedFields": [],
+                    "Confidence": -1,
+                    "OperatorConfirmed": false,
+                    "OcrConfidence": -1,
+                    "TextType": "Unknown",
+                    "ValidatorNotes": "",
+                    "ValidatorNotesInfo": ""
+                  }
+                ]
+              },
+              {
+                "RowIndex": 0,
+                "ColumnIndex": 5,
+                "IsHeader": true,
+                "IsMissing": false,
+                "OperatorConfirmed": false,
+                "DataSource": "Automatic",
+                "DataVersion": 0,
+                "Values": [
+                  {
+                    "Components": [],
+                    "Value": "line-no",
+                    "UnformattedValue": "",
+                    "Reference": {
+                      "TextStartIndex": 0,
+                      "TextLength": 0,
+                      "Tokens": []
+                    },
+                    "DerivedFields": [],
+                    "Confidence": -1,
+                    "OperatorConfirmed": false,
+                    "OcrConfidence": -1,
+                    "TextType": "Unknown",
+                    "ValidatorNotes": "",
+                    "ValidatorNotesInfo": ""
+                  }
+                ]
+              },
+              {
+                "RowIndex": 0,
+                "ColumnIndex": 6,
+                "IsHeader": true,
+                "IsMissing": false,
+                "OperatorConfirmed": false,
+                "DataSource": "Automatic",
+                "DataVersion": 0,
+                "Values": [
+                  {
+                    "Components": [],
+                    "Value": "part-no",
+                    "UnformattedValue": "",
+                    "Reference": {
+                      "TextStartIndex": 0,
+                      "TextLength": 0,
+                      "Tokens": []
+                    },
+                    "DerivedFields": [],
+                    "Confidence": -1,
+                    "OperatorConfirmed": false,
+                    "OcrConfidence": -1,
+                    "TextType": "Unknown",
+                    "ValidatorNotes": "",
+                    "ValidatorNotesInfo": ""
+                  }
+                ]
+              },
+              {
+                "RowIndex": 1,
+                "ColumnIndex": 0,
+                "IsHeader": false,
+                "IsMissing": false,
+                "OperatorConfirmed": false,
+                "DataSource": "Automatic",
+                "DataVersion": 0,
+                "Values": [
+                  {
+                    "Components": [],
+                    "Value": "Packing services",
+                    "UnformattedValue": "Packing services",
+                    "Reference": {
+                      "TextStartIndex": 359,
+                      "TextLength": 16,
+                      "Tokens": [
+                        {
+                          "TextStartIndex": 359,
+                          "TextLength": 7,
+                          "Page": 0,
+                          "PageWidth": 540,
+                          "PageHeight": 720,
+                          "Boxes": [
+                            [
+                              354.93,
+                              43.47,
+                              37.06,
+                              12.27
+                            ]
+                          ]
+                        },
+                        {
+                          "TextStartIndex": 367,
+                          "TextLength": 8,
+                          "Page": 0,
+                          "PageWidth": 540,
+                          "PageHeight": 720,
+                          "Boxes": [
+                            [
+                              354.93,
+                              83.2,
+                              38.93,
+                              12.27
+                            ]
+                          ]
+                        }
+                      ]
+                    },
+                    "DerivedFields": [],
+                    "Confidence": 0.99981546,
+                    "OperatorConfirmed": false,
+                    "OcrConfidence": 1,
+                    "TextType": "Text",
+                    "ValidatorNotes": "",
+                    "ValidatorNotesInfo": ""
+                  }
+                ]
+              },
+              {
+                "RowIndex": 1,
+                "ColumnIndex": 1,
+                "IsHeader": false,
+                "IsMissing": true,
+                "OperatorConfirmed": false,
+                "DataSource": "Automatic",
+                "DataVersion": 0,
+                "Values": null
+              },
+              {
+                "RowIndex": 1,
+                "ColumnIndex": 2,
+                "IsHeader": false,
+                "IsMissing": true,
+                "OperatorConfirmed": false,
+                "DataSource": "Automatic",
+                "DataVersion": 0,
+                "Values": null
+              },
+              {
+                "RowIndex": 1,
+                "ColumnIndex": 3,
+                "IsHeader": false,
+                "IsMissing": false,
+                "OperatorConfirmed": false,
+                "DataSource": "Automatic",
+                "DataVersion": 0,
+                "Values": [
+                  {
+                    "Components": [],
+                    "Value": "1282.00",
+                    "UnformattedValue": "$1,282.00",
+                    "Reference": {
+                      "TextStartIndex": 394,
+                      "TextLength": 9,
+                      "Tokens": [
+                        {
+                          "TextStartIndex": 394,
+                          "TextLength": 9,
+                          "Page": 0,
+                          "PageWidth": 540,
+                          "PageHeight": 720,
+                          "Boxes": [
+                            [
+                              354.93,
+                              445.87,
+                              48.8,
+                              12.27
+                            ]
+                          ]
+                        }
+                      ]
+                    },
+                    "DerivedFields": [
+                      {
+                        "FieldId": "Value",
+                        "Value": "1282.00"
+                      }
+                    ],
+                    "Confidence": 0.999979,
+                    "OperatorConfirmed": false,
+                    "OcrConfidence": 1,
+                    "TextType": "Text",
+                    "ValidatorNotes": "",
+                    "ValidatorNotesInfo": ""
+                  }
+                ]
+              },
+              {
+                "RowIndex": 1,
+                "ColumnIndex": 4,
+                "IsHeader": false,
+                "IsMissing": true,
+                "OperatorConfirmed": false,
+                "DataSource": "Automatic",
+                "DataVersion": 0,
+                "Values": null
+              },
+              {
+                "RowIndex": 1,
+                "ColumnIndex": 5,
+                "IsHeader": false,
+                "IsMissing": true,
+                "OperatorConfirmed": false,
+                "DataSource": "Automatic",
+                "DataVersion": 0,
+                "Values": null
+              },
+              {
+                "RowIndex": 1,
+                "ColumnIndex": 6,
+                "IsHeader": false,
+                "IsMissing": true,
+                "OperatorConfirmed": false,
+                "DataSource": "Automatic",
+                "DataVersion": 0,
+                "Values": null
+              },
+              {
+                "RowIndex": 2,
+                "ColumnIndex": 0,
+                "IsHeader": false,
+                "IsMissing": false,
+                "OperatorConfirmed": false,
+                "DataSource": "Automatic",
+                "DataVersion": 0,
+                "Values": [
+                  {
+                    "Components": [],
+                    "Value": "Storage fees (1 month)",
+                    "UnformattedValue": "Storage fees (1 month)",
+                    "Reference": {
+                      "TextStartIndex": 405,
+                      "TextLength": 22,
+                      "Tokens": [
+                        {
+                          "TextStartIndex": 405,
+                          "TextLength": 7,
+                          "Page": 0,
+                          "PageWidth": 540,
+                          "PageHeight": 720,
+                          "Boxes": [
+                            [
+                              369.6,
+                              43.47,
+                              37.06,
+                              12
+                            ]
+                          ]
+                        },
+                        {
+                          "TextStartIndex": 413,
+                          "TextLength": 4,
+                          "Page": 0,
+                          "PageWidth": 540,
+                          "PageHeight": 720,
+                          "Boxes": [
+                            [
+                              369.6,
+                              83.2,
+                              20.27,
+                              12
+                            ]
+                          ]
+                        },
+                        {
+                          "TextStartIndex": 418,
+                          "TextLength": 2,
+                          "Page": 0,
+                          "PageWidth": 540,
+                          "PageHeight": 720,
+                          "Boxes": [
+                            [
+                              369.6,
+                              106.13,
+                              9.6,
+                              12
+                            ]
+                          ]
+                        },
+                        {
+                          "TextStartIndex": 421,
+                          "TextLength": 6,
+                          "Page": 0,
+                          "PageWidth": 540,
+                          "PageHeight": 720,
+                          "Boxes": [
+                            [
+                              369.6,
+                              118.4,
+                              36.27,
+                              12
+                            ]
+                          ]
+                        }
+                      ]
+                    },
+                    "DerivedFields": [],
+                    "Confidence": 0.99973124,
+                    "OperatorConfirmed": false,
+                    "OcrConfidence": 1,
+                    "TextType": "Text",
+                    "ValidatorNotes": "",
+                    "ValidatorNotesInfo": ""
+                  }
+                ]
+              },
+              {
+                "RowIndex": 2,
+                "ColumnIndex": 1,
+                "IsHeader": false,
+                "IsMissing": true,
+                "OperatorConfirmed": false,
+                "DataSource": "Automatic",
+                "DataVersion": 0,
+                "Values": null
+              },
+              {
+                "RowIndex": 2,
+                "ColumnIndex": 2,
+                "IsHeader": false,
+                "IsMissing": true,
+                "OperatorConfirmed": false,
+                "DataSource": "Automatic",
+                "DataVersion": 0,
+                "Values": null
+              },
+              {
+                "RowIndex": 2,
+                "ColumnIndex": 3,
+                "IsHeader": false,
+                "IsMissing": false,
+                "OperatorConfirmed": false,
+                "DataSource": "Automatic",
+                "DataVersion": 0,
+                "Values": [
+                  {
+                    "Components": [],
+                    "Value": "1884.00",
+                    "UnformattedValue": "$1,884.00",
+                    "Reference": {
+                      "TextStartIndex": 440,
+                      "TextLength": 9,
+                      "Tokens": [
+                        {
+                          "TextStartIndex": 440,
+                          "TextLength": 9,
+                          "Page": 0,
+                          "PageWidth": 540,
+                          "PageHeight": 720,
+                          "Boxes": [
+                            [
+                              369.6,
+                              445.87,
+                              48.8,
+                              12
+                            ]
+                          ]
+                        }
+                      ]
+                    },
+                    "DerivedFields": [
+                      {
+                        "FieldId": "Value",
+                        "Value": "1884.00"
+                      }
+                    ],
+                    "Confidence": 0.99998564,
+                    "OperatorConfirmed": false,
+                    "OcrConfidence": 1,
+                    "TextType": "Text",
+                    "ValidatorNotes": "",
+                    "ValidatorNotesInfo": ""
+                  }
+                ]
+              },
+              {
+                "RowIndex": 2,
+                "ColumnIndex": 4,
+                "IsHeader": false,
+                "IsMissing": true,
+                "OperatorConfirmed": false,
+                "DataSource": "Automatic",
+                "DataVersion": 0,
+                "Values": null
+              },
+              {
+                "RowIndex": 2,
+                "ColumnIndex": 5,
+                "IsHeader": false,
+                "IsMissing": true,
+                "OperatorConfirmed": false,
+                "DataSource": "Automatic",
+                "DataVersion": 0,
+                "Values": null
+              },
+              {
+                "RowIndex": 2,
+                "ColumnIndex": 6,
+                "IsHeader": false,
+                "IsMissing": true,
+                "OperatorConfirmed": false,
+                "DataSource": "Automatic",
+                "DataVersion": 0,
+                "Values": null
+              },
+              {
+                "RowIndex": 3,
+                "ColumnIndex": 0,
+                "IsHeader": false,
+                "IsMissing": false,
+                "OperatorConfirmed": false,
+                "DataSource": "Automatic",
+                "DataVersion": 0,
+                "Values": [
+                  {
+                    "Components": [],
+                    "Value": "House move (white-glove service)",
+                    "UnformattedValue": "House move (white-glove service)",
+                    "Reference": {
+                      "TextStartIndex": 451,
+                      "TextLength": 32,
+                      "Tokens": [
+                        {
+                          "TextStartIndex": 451,
+                          "TextLength": 5,
+                          "Page": 0,
+                          "PageWidth": 540,
+                          "PageHeight": 720,
+                          "Boxes": [
+                            [
+                              384,
+                              43.47,
+                              30.93,
+                              12
+                            ]
+                          ]
+                        },
+                        {
+                          "TextStartIndex": 457,
+                          "TextLength": 4,
+                          "Page": 0,
+                          "PageWidth": 540,
+                          "PageHeight": 720,
+                          "Boxes": [
+                            [
+                              384,
+                              77.07,
+                              27.2,
+                              12
+                            ]
+                          ]
+                        },
+                        {
+                          "TextStartIndex": 462,
+                          "TextLength": 12,
+                          "Page": 0,
+                          "PageWidth": 540,
+                          "PageHeight": 720,
+                          "Boxes": [
+                            [
+                              384,
+                              106.93,
+                              61.07,
+                              12
+                            ]
+                          ]
+                        },
+                        {
+                          "TextStartIndex": 475,
+                          "TextLength": 8,
+                          "Page": 0,
+                          "PageWidth": 540,
+                          "PageHeight": 720,
+                          "Boxes": [
+                            [
+                              384,
+                              170.67,
+                              37.6,
+                              12
+                            ]
+                          ]
+                        }
+                      ]
+                    },
+                    "DerivedFields": [],
+                    "Confidence": 0.99991155,
+                    "OperatorConfirmed": false,
+                    "OcrConfidence": 1,
+                    "TextType": "Text",
+                    "ValidatorNotes": "",
+                    "ValidatorNotesInfo": ""
+                  }
+                ]
+              },
+              {
+                "RowIndex": 3,
+                "ColumnIndex": 1,
+                "IsHeader": false,
+                "IsMissing": true,
+                "OperatorConfirmed": false,
+                "DataSource": "Automatic",
+                "DataVersion": 0,
+                "Values": null
+              },
+              {
+                "RowIndex": 3,
+                "ColumnIndex": 2,
+                "IsHeader": false,
+                "IsMissing": true,
+                "OperatorConfirmed": false,
+                "DataSource": "Automatic",
+                "DataVersion": 0,
+                "Values": null
+              },
+              {
+                "RowIndex": 3,
+                "ColumnIndex": 3,
+                "IsHeader": false,
+                "IsMissing": false,
+                "OperatorConfirmed": false,
+                "DataSource": "Automatic",
+                "DataVersion": 0,
+                "Values": [
+                  {
+                    "Components": [],
+                    "Value": "5320.00",
+                    "UnformattedValue": "$5,320.00",
+                    "Reference": {
+                      "TextStartIndex": 486,
+                      "TextLength": 9,
+                      "Tokens": [
+                        {
+                          "TextStartIndex": 486,
+                          "TextLength": 9,
+                          "Page": 0,
+                          "PageWidth": 540,
+                          "PageHeight": 720,
+                          "Boxes": [
+                            [
+                              384,
+                              445.87,
+                              48.8,
+                              12
+                            ]
+                          ]
+                        }
+                      ]
+                    },
+                    "DerivedFields": [
+                      {
+                        "FieldId": "Value",
+                        "Value": "5320.00"
+                      }
+                    ],
+                    "Confidence": 0.9999771,
+                    "OperatorConfirmed": false,
+                    "OcrConfidence": 1,
+                    "TextType": "Text",
+                    "ValidatorNotes": "",
+                    "ValidatorNotesInfo": ""
+                  }
+                ]
+              },
+              {
+                "RowIndex": 3,
+                "ColumnIndex": 4,
+                "IsHeader": false,
+                "IsMissing": true,
+                "OperatorConfirmed": false,
+                "DataSource": "Automatic",
+                "DataVersion": 0,
+                "Values": null
+              },
+              {
+                "RowIndex": 3,
+                "ColumnIndex": 5,
+                "IsHeader": false,
+                "IsMissing": true,
+                "OperatorConfirmed": false,
+                "DataSource": "Automatic",
+                "DataVersion": 0,
+                "Values": null
+              },
+              {
+                "RowIndex": 3,
+                "ColumnIndex": 6,
+                "IsHeader": false,
+                "IsMissing": true,
+                "OperatorConfirmed": false,
+                "DataSource": "Automatic",
+                "DataVersion": 0,
+                "Values": null
+              },
+              {
+                "RowIndex": 4,
+                "ColumnIndex": 0,
+                "IsHeader": false,
+                "IsMissing": false,
+                "OperatorConfirmed": false,
+                "DataSource": "Automatic",
+                "DataVersion": 0,
+                "Values": [
+                  {
+                    "Components": [],
+                    "Value": "Vehicle storage and transport",
+                    "UnformattedValue": "Vehicle storage and transport",
+                    "Reference": {
+                      "TextStartIndex": 497,
+                      "TextLength": 29,
+                      "Tokens": [
+                        {
+                          "TextStartIndex": 497,
+                          "TextLength": 7,
+                          "Page": 0,
+                          "PageWidth": 540,
+                          "PageHeight": 720,
+                          "Boxes": [
+                            [
+                              398.4,
+                              43.47,
+                              35.2,
+                              12
+                            ]
+                          ]
+                        },
+                        {
+                          "TextStartIndex": 505,
+                          "TextLength": 7,
+                          "Page": 0,
+                          "PageWidth": 540,
+                          "PageHeight": 720,
+                          "Boxes": [
+                            [
+                              398.4,
+                              81.33,
+                              36,
+                              12
+                            ]
+                          ]
+                        },
+                        {
+                          "TextStartIndex": 513,
+                          "TextLength": 3,
+                          "Page": 0,
+                          "PageWidth": 540,
+                          "PageHeight": 720,
+                          "Boxes": [
+                            [
+                              398.4,
+                              120,
+                              18.4,
+                              12
+                            ]
+                          ]
+                        },
+                        {
+                          "TextStartIndex": 517,
+                          "TextLength": 9,
+                          "Page": 0,
+                          "PageWidth": 540,
+                          "PageHeight": 720,
+                          "Boxes": [
+                            [
+                              398.4,
+                              141.07,
+                              45.6,
+                              12
+                            ]
+                          ]
+                        }
+                      ]
+                    },
+                    "DerivedFields": [],
+                    "Confidence": 0.99985784,
+                    "OperatorConfirmed": false,
+                    "OcrConfidence": 1,
+                    "TextType": "Text",
+                    "ValidatorNotes": "",
+                    "ValidatorNotesInfo": ""
+                  }
+                ]
+              },
+              {
+                "RowIndex": 4,
+                "ColumnIndex": 1,
+                "IsHeader": false,
+                "IsMissing": true,
+                "OperatorConfirmed": false,
+                "DataSource": "Automatic",
+                "DataVersion": 0,
+                "Values": null
+              },
+              {
+                "RowIndex": 4,
+                "ColumnIndex": 2,
+                "IsHeader": false,
+                "IsMissing": true,
+                "OperatorConfirmed": false,
+                "DataSource": "Automatic",
+                "DataVersion": 0,
+                "Values": null
+              },
+              {
+                "RowIndex": 4,
+                "ColumnIndex": 3,
+                "IsHeader": false,
+                "IsMissing": false,
+                "OperatorConfirmed": false,
+                "DataSource": "Automatic",
+                "DataVersion": 0,
+                "Values": [
+                  {
+                    "Components": [],
+                    "Value": "5186.00",
+                    "UnformattedValue": "$5,186.00",
+                    "Reference": {
+                      "TextStartIndex": 532,
+                      "TextLength": 9,
+                      "Tokens": [
+                        {
+                          "TextStartIndex": 532,
+                          "TextLength": 9,
+                          "Page": 0,
+                          "PageWidth": 540,
+                          "PageHeight": 720,
+                          "Boxes": [
+                            [
+                              398.4,
+                              445.87,
+                              48.8,
+                              12
+                            ]
+                          ]
+                        }
+                      ]
+                    },
+                    "DerivedFields": [
+                      {
+                        "FieldId": "Value",
+                        "Value": "5186.00"
+                      }
+                    ],
+                    "Confidence": 0.99997973,
+                    "OperatorConfirmed": false,
+                    "OcrConfidence": 1,
+                    "TextType": "Text",
+                    "ValidatorNotes": "",
+                    "ValidatorNotesInfo": ""
+                  }
+                ]
+              },
+              {
+                "RowIndex": 4,
+                "ColumnIndex": 4,
+                "IsHeader": false,
+                "IsMissing": true,
+                "OperatorConfirmed": false,
+                "DataSource": "Automatic",
+                "DataVersion": 0,
+                "Values": null
+              },
+              {
+                "RowIndex": 4,
+                "ColumnIndex": 5,
+                "IsHeader": false,
+                "IsMissing": true,
+                "OperatorConfirmed": false,
+                "DataSource": "Automatic",
+                "DataVersion": 0,
+                "Values": null
+              },
+              {
+                "RowIndex": 4,
+                "ColumnIndex": 6,
+                "IsHeader": false,
+                "IsMissing": true,
+                "OperatorConfirmed": false,
+                "DataSource": "Automatic",
+                "DataVersion": 0,
+                "Values": null
+              }
+            ],
+            "ColumnInfo": [
+              {
+                "FieldId": "description",
+                "FieldName": "Items - Descriptions",
+                "FieldType": "Text"
+              },
+              {
+                "FieldId": "quantity",
+                "FieldName": "Items - Quantities",
+                "FieldType": "Number"
+              },
+              {
+                "FieldId": "unit-price",
+                "FieldName": "Items - Unit Prices",
+                "FieldType": "Number"
+              },
+              {
+                "FieldId": "line-amount",
+                "FieldName": "Items - Line Amounts",
+                "FieldType": "Number"
+              },
+              {
+                "FieldId": "item-po-no",
+                "FieldName": "Items - Customer Purchase Order Numbers",
+                "FieldType": "Text"
+              },
+              {
+                "FieldId": "line-no",
+                "FieldName": "Items - Line Numbers",
+                "FieldType": "Text"
+              },
+              {
+                "FieldId": "part-no",
+                "FieldName": "Items - Part Number",
+                "FieldType": "Text"
+              }
+            ],
+            "NumberOfRows": 5,
+            "ValidatorNotes": "",
+            "ValidatorNotesInfo": ""
+          }
+        ],
+        "ValidatorNotes": "",
+        "ValidatorNotesInfo": ""
+      }
+    ]
+  },
+  "ExtractorPayloads": null,
+  "BusinessRulesResults": null
+},
+  "filename": "Sample Invoice.pdf",
+  "batchId": "60c24ae9-1365-4278-b761-27c170b4ae29",
+  "batch_record_id": "CBBDB724-0132-F111-8EF3-000D3A54AEC0",
+  "batch_size": null,
+  "page_size": null,
+  "upsert": null
+}

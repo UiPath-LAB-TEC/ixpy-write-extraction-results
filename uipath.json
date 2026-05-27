@@ -1,0 +1,114 @@
+{
+  "$schema": "https://cloud.uipath.com/draft/2024-12/uipath",
+  "entryPoints": [
+    {
+      "filePath": "main.py",
+      "uniqueId": "fa9c1fcb-afe6-4a41-8189-a46c5c4871ca",
+      "type": "agent",
+      "input": {
+        "type": "object",
+        "properties": {
+          "extraction_results": {
+            "type": "object",
+            "description": "Extraction results returned by UiPath Documents."
+          },
+          "validate_extraction": {
+            "type": "boolean",
+            "description": "When true, fetch validated extraction results from UiPath using validation_action_data."
+          },
+          "validation_action_data": {
+            "type": "object",
+            "description": "Validate Extraction action payload used to fetch validated extraction results from UiPath."
+          },
+          "batch_record_id": {
+            "type": "string",
+            "description": "Data Fabric record Id for the related batch entity. Use this when batchId is a business key rather than the related record Id."
+          },
+          "filename": {
+            "type": "string",
+            "description": "Original document filename for Data Service records."
+          },
+          "batchId": {
+            "type": "string",
+            "description": "Batch identifier (Data Service relationship field)."
+          },
+          "batch_size": {
+            "type": "integer",
+            "description": "Batch size for Data Service insert/update requests."
+          },
+          "page_size": {
+            "type": "integer",
+            "description": "Page size for Data Service list_records when upsert is enabled."
+          },
+          "upsert": {
+            "type": "boolean",
+            "description": "When true, update existing rows that match filename/field keys."
+          }
+        },
+        "required": []
+      },
+      "output": {
+        "type": "object",
+        "properties": {
+          "entity_key": {
+            "type": "string",
+            "description": "UiPath Data Service entity key used for writes."
+          },
+          "inserted": {
+            "type": "integer",
+            "description": "Number of records inserted."
+          },
+          "updated": {
+            "type": "integer",
+            "description": "Number of records updated."
+          },
+          "insert_failures": {
+            "type": "integer",
+            "description": "Number of records that failed to insert."
+          },
+          "update_failures": {
+            "type": "integer",
+            "description": "Number of records that failed to update."
+          },
+          "skipped_validation_updates": {
+            "type": "integer",
+            "description": "Validation updates skipped because no matching record was found."
+          },
+          "errors": {
+            "type": "array",
+            "description": "List of errors encountered while writing results.",
+            "items": {
+              "type": "string"
+            }
+          }
+        },
+        "required": [
+          "entity_key",
+          "inserted",
+          "updated",
+          "insert_failures",
+          "update_failures",
+          "skipped_validation_updates",
+          "errors"
+        ]
+      }
+    }
+  ],
+  "bindings": {
+    "version": "2.0",
+    "resources": []
+  },
+  "runtimeOptions": {
+    "isConversational": false
+  },
+  "packOptions": {
+    "fileExtensionsIncluded": [],
+    "filesIncluded": [],
+    "filesExcluded": [],
+    "directoriesExcluded": [],
+    "includeUvLock": true
+  },
+  "functions": {
+    "main.py": "main.py:main"
+  }
+}

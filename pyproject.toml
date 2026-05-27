@@ -1,0 +1,10 @@
+[project]
+name = "ixpy-write-extraction-results"
+version = "0.1.8"
+authors = [{ name = "Nathan Ness" }]
+description = "IXP Write Extraction Results Agent"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "uipath>=2.3.3",
+]
